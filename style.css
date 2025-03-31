@@ -81,6 +81,9 @@ body .charterd accountant {
 
 body.it {
     background: linear-gradient(to right, #8A2BE2, #4B0082);
+    background-image: url('images/it-background.jpeg');
+    background-attachment: fixed;
+
 }
 
 .career-info {
@@ -222,6 +225,103 @@ footer {
         margin: 2.5%;
     }
 }
+
+/* Software Development */
+
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styling */
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    header nav ul {
+        display: block;
+        margin-top: 10px;
+    }
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
 
 
 
